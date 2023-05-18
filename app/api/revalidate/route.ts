@@ -1,5 +1,3 @@
-// http://localhost:3000/api/revalidate?path=/&secret=d0f13cd765e3312cd5981db09a4b8168
-
 import { NextRequest, NextResponse } from "next/server"
 import { revalidatePath } from "next/cache"
 
